@@ -20,7 +20,7 @@ public class HelloController {
         if (language.equals("ja")) {
             greeting = "こんにちは、" + name + "さん！";
         } else {
-            greeting = "Hello," + name + "!";
+            greeting = "Hello, " + name + "! Welcome to my API";
         }
 
         return Map.of("message", greeting);
